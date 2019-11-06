@@ -3,17 +3,21 @@
     width: 100px;
     height: 100px;
     margin: 5px;
-    display: inline-block;
-}
-
-.blue {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
 
 .red {
     background-color: red;
+    order: 1;
+}
+
+.blue {
+    background-color: blue;
+    order: 2;
 }
 
 .green {
     background-color: green;
+    order: 3;
 }
